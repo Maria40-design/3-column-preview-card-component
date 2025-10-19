@@ -1,0 +1,140 @@
+@import url('https://fonts.googleapis.com/css2?family=Bai+Jamjuree:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;1,200;1,300;1,400;1,500;1,600;1,700&family=Big+Shoulders:opsz,wght@10..72,100..900&family=Figtree:ital,wght@0,300..900;1,300..900&family=Fraunces:ital,opsz,wght@0,9..144,100..900;1,9..144,100..900&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Karla:ital,wght@0,200..800;1,200..800&family=Lexend+Deca:wght@100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Red+Hat+Display:ital,wght@0,300..900;1,300..900&display=swap');
+
+ 
+ 
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    Font-size: 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.container {
+    width: 80%;
+    height: 85vh;
+    margin-top: 3%;
+    background-color: hsl(0, 0%, 95%);
+    color: hsl(0, 0%, 95%);
+}
+.stylediv {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin: 5%;
+}
+.card1 {
+    background-color: hsl(31, 77%, 52%);
+    padding: 30px;
+    width: 25%;
+    height: 60vh;
+    border-bottom-left-radius: 5px;
+    border-top-left-radius: 5px;
+}
+.card2 {
+    background-color: hsl(184, 100%, 22%);
+    padding: 30px;
+    width: 25%;
+    height: 60vh;
+}
+.card3 {
+    background-color: hsl(179, 100%, 13%);
+    padding: 30px;
+    width: 25%;
+    height: 60vh;
+    border-bottom-right-radius: 5px;
+    border-top-right-radius: 5px;
+}
+p {
+    color:hsla(0, 0%, 100%, 0.75);
+}
+button {
+    border: none;
+    padding: 10px 25px;
+    border-radius: 20px;
+    margin-top: 40%;
+}
+img {
+    margin-top: 15px;
+}
+h1 {
+    margin-top: 15px;
+}
+p {
+    margin-top: 15px;
+    font-family: "Lexend Deca", sans-serif;
+    line-height: 20px;
+}
+#bt1 {
+    color: hsl(31, 77%, 52%);
+    margin-top: 25%;
+}
+#bt2 {
+    color: hsl(184, 100%, 22%);
+    margin-top: 25%;
+}
+#bt3 {
+    color: hsl(179, 100%, 13%);
+    margin-top: 25%;
+}
+#bt3:hover {
+    background-color: hsl(179, 100%, 13%);
+    color: hsl(0, 0%, 100%);
+    border:2px solid white;
+    cursor: pointer;
+}
+#bt2:hover {
+    background-color: hsl(184, 100%, 22%);
+    color: hsl(0, 0%, 100%);
+    border:2px solid white;
+    cursor: pointer;
+}
+#bt1:hover {
+    background-color: hsl(31, 77%, 52%);
+    color: hsl(0, 0%, 100%);
+    border:2px solid white;
+    cursor: pointer;
+}
+@media screen and 
+(max-width: 700px){
+    .stylediv {
+        display: flex;
+        flex-direction: column;
+    }
+    .container {
+    width: 57%;
+    height: 100%;
+    margin-top: 3%;
+    background-color: hsl(0, 0%, 95%);
+    color: hsl(0, 0%, 95%);
+    }
+    button {
+    border: none;
+    padding: 10px 25px;
+    border-radius: 20px;
+    }
+    .card1, .card2, .card3 {
+    width: 80%;
+    height: 55vh;
+    }
+    .card1 {
+        border-top-right-radius: 10px;
+        border-top-left-radius: 10px;
+        border-bottom-left-radius:0px;
+    }
+    .card3 {
+        border-bottom-right-radius: 10px;
+        border-bottom-left-radius: 10px;
+        border-top-right-radius: 0px;
+    }
+    .stylediv {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 10% 0%;
+
+    }
+}
